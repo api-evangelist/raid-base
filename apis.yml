@@ -1,7 +1,23 @@
 aid: raid-base
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/raid-base.png
 name: Raid Base
-description: Raid Base is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Raid Base Inc. is a Los Angeles-based game development studio, founded in 2020, building an open-world,
+  sandbox PvPvE game in an original IP where players and crews build reputations through farming, trading, building,
+  fighting, and politics. The team draws from Riot Games, Valve, Blizzard, Microsoft, and Bungie, and the studio has
+  raised roughly $34.4M from investors including Andreessen Horowitz (a16z), BITKRAFT Ventures, Patron, F4 Fund, and
+  Dreamhaven. Surfaced as an a16z portfolio company and added to the API Evangelist network; the studio publishes no
+  public developer API, SDK, documentation, or developer platform at this time.
 url: https://raw.githubusercontent.com/api-evangelist/raid-base/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +27,31 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Gaming
+- Game Development
+- Video Games
+- Startup
+- Entertainment
 apis: []
+common:
+- type: Website
+  url: https://www.raidbase.com/
+- type: About
+  url: https://www.raidbase.com/about
+- type: SignUp
+  url: https://www.raidbase.com/join
+- type: LinkedIn
+  url: https://www.linkedin.com/company/raidbaseinc
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
